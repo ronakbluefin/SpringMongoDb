@@ -1,0 +1,58 @@
+package com.springmongodb.practice.Helper;
+
+import com.springmongodb.practice.Model.Lead;
+public class ValueFactory {
+    public static Lead lead1 = new Lead("123456789",
+                                      "987654321",
+                                      "852369741",
+                                      "75395145685",
+                                      "73914682",
+                                      "tcpa998877445",
+                                      "380013",
+                                      "helos578f56",
+                                      "helkfihlifjl",
+                                      "192.168.0.1",
+                                      "ACTIVE",
+                                      "10",
+                                      1539367526,
+                                      1539367526,
+                                      1539367526,
+                                      "Hello Java",
+                                      "NONE");
+
+    public static Lead lead2 = new Lead("123456789",
+                                    "987654321",
+                                    "852369741",
+                                    "75395145685",
+                                    "73914682",
+                                    "tcpa998877445",
+                                    "380013",
+                                    "helos578f56",
+                                    "helkfihlifjl",
+                                    "192.168.1.1",
+                                    "ACTIVE",
+                                    "14",
+                                    1539367526,
+                                    1539367526,
+                                    1539367526,
+                                    "Hello Java",
+                                    "NONE");
+
+    public static Lead lead3 = new Lead("123456789",
+                                    "987654321",
+                                    "852369741",
+                                    "75395145685",
+                                    "73914682",
+                                    "tcpa998877445",
+                                    "380013",
+                                    "helos578f56",
+                                    "helkfihlifjl",
+                                    "192.168.2.1",
+                                    "PAUSED",
+                                    "12",
+                                    1539367526,
+                                    1539367526,
+                                    1539367526,
+                                    "Hello Java",
+                                    "NONE");
+}
